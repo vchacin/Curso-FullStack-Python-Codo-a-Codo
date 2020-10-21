@@ -1,0 +1,129 @@
+body{
+  font-size: 16px;
+}
+
+/* PRESENTACION */
+
+.presentacion{
+  margin: 0 20% 0 26%;
+  width: 50%;
+  text-align: justify;
+}
+
+.portada1{
+  width: 60%;
+}
+
+.portada2{
+  width: 39%;
+}
+
+.cuadrado{
+  width: 20px;
+  height: 20px;
+  background-color: #F0CC24;
+  position: relative;
+}
+
+h2{
+  font-size: calc(5vw);
+  font-family: serif;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  margin: 40px 0 0 0;
+}
+
+/* CONTENIDO */
+
+.descripcion{
+  margin: 5% 20% 5% 26%;
+  width: 50%;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+hr{
+  width: 100%;
+  margin-left: 0;
+}
+
+/* TABLAS */
+
+td.width{
+  width: 300px;
+}
+
+/* PRODUCTOS */
+
+.buscar{
+  margin: 20px auto;
+}
+
+#buscar{
+  border-radius: 20px;
+  padding: 0 30px 0 10px;
+  border: solid 1px;
+}
+
+.lista-productos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.carta-producto{
+  border: solid 2px #f0f0f0;
+  width: 210px;
+  height: 370px;
+  margin: 20px 5px;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.img-producto{
+  width: 100%;
+  margin: 10px 0;
+}
+
+.catalogo-color{
+  width: 20px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+/* NUESTRO EQUIPO */
+
+.team-profile{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  margin: 3% 3.5%;
+}
+
+.team-foto{
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 50px;
+  color: #018fe2;
+}
+
+.fab{
+  margin: 10px;
+}
+
+/* QUERY */
+
+@media screen and (max-width: 700px){
+  .team-profile{
+    display: block;
+    width: 100%;
+  }
+}
